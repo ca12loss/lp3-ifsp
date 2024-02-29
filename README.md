@@ -3,7 +3,7 @@
 
 Repositório para organizar os códigos da disciplina Linguagem de Programação 3..
 
-## Intruções Lab de Informática
+## Instruções Lab de Informática
 
 Ao chegar no laboratório:
 
