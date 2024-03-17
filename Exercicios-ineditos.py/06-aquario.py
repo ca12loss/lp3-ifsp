@@ -1,11 +1,9 @@
-
 def find_volume(lenght,height,width):
     return (lenght*height*width)/1000
 
 def get_potency(volume,desired_temperature,ambient_temperature):
     return volume*0.05*(desired_temperature - ambient_temperature)
  
-
 def get_hrly_filter(volume):
     return volume*2, volume*3
 

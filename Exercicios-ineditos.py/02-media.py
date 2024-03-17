@@ -4,4 +4,4 @@ n3 = float(input("Entre com o terceiro número : "))
 
 media = (n1+n2+n3)/3
 
-print('A média é: ', media)
+print(f'A média é:{media}')
