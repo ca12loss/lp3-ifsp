@@ -6,11 +6,6 @@ def verify_id(employee_id) :
 
     return valid_lenght and valid_start_end and valid_middle
 
-employee_id = input("Entre com o seu identificador, por favor: ")
+employee_id = input("Entre com o código: ")
 
-if verify_id(employee_id):
-   print('Código válido')
-else :
-    print('Código inválido')
-
-
+print('Código válido') if verify_id(employee_id) else print('Código inválido')
