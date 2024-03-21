@@ -11,4 +11,4 @@ while True:
     elif random_number > n :
         print('Palpite está baixo')
     else :
-        print('Palpite está alta')
+        print('Palpite está alto')
