@@ -1,7 +1,18 @@
+import random
+
+def generate_secretwrd():
+    with open('Exercicios-simulado/palavras.txt', 'r') as arquivo:
+        words = arquivo.readlines()
+
+    secret_word = words[random.randint(0, len(words) - 1)].strip()
+    return secret_word
+
+secret_word = generate_secretwrd()
+
+print(secret_word)
 
 print('Jogo da Forca: ')
 
-secret_word = 'sometimes'
 chances = 6
 
 to_reveal = ['_'] * len(secret_word)
