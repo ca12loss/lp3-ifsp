@@ -1,15 +1,12 @@
 import random
 
 def generate_secretwrd():
-    with open('Exercicios-simulado/palavras.txt', 'r') as arquivo:
-        words = arquivo.readlines()
-
+    with open('Exercicios-simulado/palavras.txt', 'r') as file:
+        words = file.readlines()
     secret_word = words[random.randint(0, len(words) - 1)].strip()
     return secret_word
 
 secret_word = generate_secretwrd()
-
-print(secret_word)
 
 print('Jogo da Forca: ')
 
@@ -33,7 +30,7 @@ while chances > 0:
         print(f'Ainda possui {chances} tentativas')
 
     print(''.join(to_reveal))
-
+    
     if '_' not in to_reveal:
         print("Parabéns! Você acertou a palavra!")
         break
