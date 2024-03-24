@@ -1,5 +1,5 @@
 def count_wrds(phrase):
-    words = phrase.split()
+    words = phrase.lower().split()
     count = {}
 
     for word in words:
