@@ -1,7 +1,7 @@
 import random
 
 def generate_secretwrd():
-    with open('Exercicios-simulado/palavras.txt', 'r') as file:
+    with open('Exercicios-simulado/07-exercicio-forca/palavras.txt', 'r') as file:
         words = file.readlines()
     secret_word = words[random.randint(0, len(words) - 1)].strip()
     return secret_word

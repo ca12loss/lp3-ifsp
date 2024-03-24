@@ -1,9 +1,8 @@
 def count_vowelsncons(phrase):
-    phrase_ws = phrase.replace(" ", "")
     count_vowel = 0
     count_consonant = 0
 
-    for letter in phrase_ws:
+    for letter in phrase.replace(" ", "") :
         if letter.lower() in 'aeiou':
             count_vowel += 1
         else:
