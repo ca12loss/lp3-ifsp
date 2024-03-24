@@ -1,4 +1,4 @@
 n = int(input('Entre com o número que deseja conferir a tabuada: '))
 
-for count in range(0,10,1):
-    print(f'{n} x {count + 1} = {n*(count+1)}')
+for i in range(10):
+    print(f'{n} x {i+1} = {n*(i+1)}')
