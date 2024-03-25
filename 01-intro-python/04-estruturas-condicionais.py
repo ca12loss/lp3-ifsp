@@ -88,7 +88,7 @@ status = 'maior' if idade >= 18 else 'menor'
 # 1- Domingo, 2- Segunda ...7- Sábado
 dia = 4
 
-dias ={
+dias = {
     1:'Domingo',
     2: 'Segunda',
     3: 'Terça',
